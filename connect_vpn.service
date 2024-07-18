@@ -1,0 +1,14 @@
+[Unit]
+Description=Connect to ProtonVPN on startup
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/env python3 /home/sfndiku/connect_vpn.py
+Type=simple
+User=root
+Environment="PROTONVPN_USERNAME=your_actual_username"
+Environment="PROTONVPN_PASSWORD=your_actual_password"
+
+[Install]
+WantedBy=multi-user.target
+

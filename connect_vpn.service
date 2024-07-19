@@ -3,7 +3,7 @@ Description=Connect to ProtonVPN on startup
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/env python3 /home/sfndiku/connect_vpn.py
+ExecStart=/usr/bin/env python3 /home/username/path_to_cloned_repo/connect_vpn.py
 Type=simple
 User=root
 Environment="PROTONVPN_USERNAME=your_actual_username"

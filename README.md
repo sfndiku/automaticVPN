@@ -27,15 +27,15 @@ in Ubuntu and other debian based systems:
 sudo apt install python3 python3-pip openvpn
 ```
 
-in Arch Linux
+in Arch Linux:
 ```bash
 sudo pacman -S openvpn python
 ```
-in CentOS/RHEL
+in CentOS/RHEL:
 ```bash
 sudo yum install python3 python3-pip openvpn
 ```
-in Fedora
+in Fedora:
 ```bash
 sudo dnf install python3 python3-pip openvpn
 ```

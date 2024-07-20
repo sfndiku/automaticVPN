@@ -96,7 +96,7 @@ Reboot your system and check dnsleaktest.com
 
 
 ## Contact
-Contact me via email <sfndiku11@gmail.com>.
+Contact me via email <sfnbusiness01@gmail.com>.
 
 > PS. feel free to modify and use it for your own requirements
 

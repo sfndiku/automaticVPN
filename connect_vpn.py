@@ -6,7 +6,7 @@ import subprocess
 import stat
 
 VPN_CONFIG_DIR = '/path/to/config/files'  # Change this to the path where your .ovpn files are stored
-USERNAME = os.getenv('PROTONVPN_USERNAME', 'fallback_username')  # Fallback for testing and the actual username is stored in /etc/systemd/system/connect_vpn.service
+USERNAME = os.getenv('PROTONVPN_USERNAME', 'fallback_username')  # Fallback for  testing and the actual username is stored in /etc/systemd/system/connect_vpn.service
 PASSWORD = os.getenv('PROTONVPN_PASSWORD', 'fallback_password')  # Fallback for testing and the actual password is stored in /etc/systemd/system/connect_vpn.service
 
 def connect_to_vpn():

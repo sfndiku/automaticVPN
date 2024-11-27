@@ -14,7 +14,7 @@ This project provides a script and systemd service to automatically connect to a
 
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/vpn-auto-connect.git
+git clone https://github.com/sfndiku/automaticVPN.git
 ```
 
 
